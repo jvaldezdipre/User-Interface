@@ -106,10 +106,12 @@ section {
   display: block;
 }
 body {
+  max-width: 75%;
   line-height: 1;
-  padding-left: 80px;
-  padding-right: 80px;
+  /* padding-left: 80px;
+  padding-right: 80px; */
   padding-top: 20px;
+  margin: 0 auto;
 }
 ol,
 ul {
@@ -153,17 +155,19 @@ h5 {
 }
 
 /* Your code starts here! */
+/* Navigation */
 nav {
   text-align: center;
   width: 100%;
 }
 
 nav a {
-  margin: 0px 40px 0px 40px;
+  margin: 0px 25px;
   text-decoration: none;
   color: gray;
 }
 
+/* Header */
 header {
   text-align: center;
 }
@@ -195,6 +199,27 @@ header button {
   padding-top: 50px;
 }
 
+/* Section 1 */
+.container-one {
+  padding: 40px 0px;
+}
+
+.container-one div {
+  display: inline-block;
+  max-width: 40%;
+}
+
+/* Middle Image */
 .middle-img {
   width: 100%;
+}
+
+/* Section 2 */
+.container-two {
+  padding: 40px 0px;
+}
+
+.container-two div {
+  display: inline-block;
+  max-width: 30%;
 }
