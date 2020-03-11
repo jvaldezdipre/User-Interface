@@ -207,6 +207,7 @@ header button {
 .container-one div {
   display: inline-block;
   max-width: 40%;
+  padding-right: 15px;
 }
 
 /* Middle Image */
@@ -222,4 +223,18 @@ header button {
 .container-two div {
   display: inline-block;
   max-width: 30%;
+  padding-right: 15px;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+address p {
+  padding-bottom: 15px;
+}
+
+.copy {
+  text-align: center;
+  padding: 40px 0px 60px 0px;
 }
