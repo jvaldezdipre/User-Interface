@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
 html,
 body,
 div,
@@ -108,8 +110,6 @@ section {
 body {
   max-width: 75%;
   line-height: 1;
-  /* padding-left: 80px;
-  padding-right: 80px; */
   padding-top: 20px;
   margin: 0 auto;
 }
@@ -141,7 +141,7 @@ table {
 html,
 body {
   height: 100%;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 h1,
